@@ -1,6 +1,6 @@
-title: Jephte Mangenda
+title: Mr Me
 logo: /assets/images/logo.avif
-baseurl: /Jephteman
+baseurl: 
 
 ##
 # Collections configuration
@@ -19,10 +19,10 @@ collections:
 contact_channels_section: true
 contact_channels:
   #email: "te"
-  github: "https://github.com/Jephteman"
+  github: "https://github.com/mrx0me"
   telegram: "https://t.me/mrx00me"
   # stackoverflow: "https://stackoverflow.com"
-  # discord: "https://discord.com/"
+  discord: "https://discord.com/mrx00me"
   # mastodon: "https://lile.cl/"
   # threads: "https://www.threads.net/@example"
   linkedin: "https://www.linkedin.com/in/mr0me"
@@ -38,8 +38,8 @@ plugins:
 ##
 # Polyglot configuration
 ##
-languages: ["en"]
-default_lang: "en"
+languages: ["fr"]
+default_lang: "fr"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
 

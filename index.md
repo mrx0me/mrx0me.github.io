@@ -6,24 +6,54 @@ description: >-
   en diversas etapas del ciclo de desarrollo de aplicaciones.
 image: /assets/images/main.avif
 main_content: >
-  # Hello Friend. Hello World.
+  ## Jephte Mangenda (MrxOme).
+    Etudiant en réseau informatique, developpeur informatique et Cybersecurité enthusiaste .
+    
 
-
-  **Solum remis procul; poenam, corde?** Te quoque facti agros, querorque,
-  excutis
-
-  quoque vestigia substricta caelestique posuisset litore: suaque. **Et
-  limine**, et
-
-  nimium nec io diemque vocat spicea et horror licet leto fortuna suis cum.
-  **Lecto viae, quod Naxos tumulos quoque.** Et illo de nati iuvenci oris habet,
-  perdidit parantur! **#Rails #Ruby #Python #HTML #Css #Js #AWS**
 footer: true
 permalink: /
 ---
-## Hello World
+# 🛡️ À propos de moi : Jephté Mangenda
+### *Étudiant en Réseaux | Praticien en Cybersécurité | Bug Bounty Hunter*
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat porta lorem, non auctor magna aliquet ac. Nam finibus in massa quis molestie. Vestibulum malesuada iaculis consequat. Phasellus sagittis, nisl non semper vestibulum, tellus enim interdum purus, ac pretium magna lectus ac turpis. Phasellus scelerisque hendrerit magna vitae fermentum. Praesent facilisis erat viverra eros tristique, id faucibus eros volutpat. Duis tempus arcu in felis sollicitudin, in sodales leo scelerisque. Nullam dapibus libero eu iaculis rhoncus.
+Bienvenue sur mon espace numérique. Je suis **Jephté Mangenda**, passionné par l'architecture des systèmes et la sécurisation des infrastructures critiques. 
 
-Nulla sed lorem imperdiet, efficitur velit et, mollis neque. Etiam placerat vehicula diam, a scelerisque diam posuere vel. Sed a convallis elit. Proin sodales, mi sit amet aliquam lobortis, ligula elit tristique justo, sodales placerat diam nunc vitae eros. Etiam maximus mauris eget sem varius, mollis ullamcorper metus porttitor. Aenean at elit sodales, rutrum ex tincidunt, molestie lorem. Donec in ante fermentum, pharetra dolor in, tempus nunc. Vivamus in lacinia lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Mon parcours est une quête constante d'équilibre entre la théorie académique, la pratique intensive en laboratoire et l'analyse de systèmes réels (Bug Hunting).
 
+---
+
+## 🌐 Expertise Réseau & Fondations
+Ma vision de la sécurité repose sur une compréhension profonde des flux de données. 
+* **Cisco Networking Academy :** Fort de plusieurs certifications, je maîtrise la configuration, le dépannage et la sécurisation des équipements réseaux (Switching, Routing, LAN/WAN).
+* **Philosophie :** On ne peut protéger efficacement que ce que l'on comprend techniquement à la perfection.
+
+## ⚔️ Performance CTF & Hacking Éthique
+Je suis extrêmement actif au sein de la communauté mondiale de cybersécurité, où je teste mes limites quotidiennement :
+
+* 🏆 **[TryHackMe](https://tryhackme.com/p/jephte)** : Actuellement dans le **Top 1%** mondial.
+* 🛡️ **[HackTheBox](https://app.hackthebox.com/users/916145)** : Résolution de machines complexes et escalade de privilèges.
+* 🚩 **[Root-Me](https://www.root-me.org/jeremie-679285)** : Analyse de vulnérabilités applicatives et exploitation système.
+* ⏱️ **[CTFtime](https://ctftime.org/user/140950)** : Participation aux compétitions internationales en équipe.
+
+## 🏹 Bug Hunting
+Au-delà des environnements contrôlés, je m'exerce à la recherche de vulnérabilités sur des périmètres réels en respectant les cadres éthiques :
+* **[HackerOne](https://hackerone.com/mr_me2?type=user)** : Chasseur de bugs actif, spécialisé dans l'identification de failles logiques et techniques sur des infrastructures critiques.
+
+> **Objectif actuel :** Je prépare activement la certification **eJPT** (Junior Penetration Tester) et je vise à terme l'**OSCP** (Offensive Security Certified Professional).
+
+---
+
+## 🛠️ Stack Technique & Compétences
+
+| Domaine | Technologies & Outils |
+| :--- | :--- |
+| **Networking** | Cisco IOS, Protocoles de routage, VLANs, VPN |
+| **Bug Hunting** | Reconnaissance (Subfinder, Amass), Burp Suite, Fuzzing |
+| **Sécurité Offensive** | Pentesting, Nmap, Metasploit, SQLMap, Kali Linux |
+
+---
+
+## 💡 Ma Vision
+Sur ce blog, je documente mon aventure dans l'univers de l'**Infosec**. Mon but est de partager mes *write-ups*, mes découvertes en tant que chasseur de bugs et ma veille technologique.
+
+> *"La sécurité est un processus, pas un produit."*

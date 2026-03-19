@@ -1,0 +1,15 @@
+home:
+  contact_me: "Vous pouvez me suivre sur ces plateformes :"
+  blog_title: "Blog: Récents Posts"
+  see_more_posts: "Plus des posts ->"
+  projects_title: "Récents projects"
+  see_more_projects: "Plus des projets ->"
+footer:
+  title: "Let's keep in touch!"
+  description: " Find me on any of these platforms. "
+  pages: Pages
+blog:
+  read_more: "Lire plus ->"
+  more_articles: "Plus des posts"
+post:
+  share: T'as aimé ? Partage !
