@@ -16,8 +16,9 @@ Les IoT (Internet des objets) sont des appareils fascinants, captivants et impre
 
 L'un des grands soucis avec ces appareils, qui deviennent de plus en plus petits et qui sont en mesure d'offrir connectivité et échange d'informations, est qu'ils ont le plus souvent des ressources limitées. C'est-à-dire que, par exemple, pour garantir une bonne autonomie énergétique, ils doivent s'assurer de ne pas trop consommer de ressources. Et pour cela, dans la phase de conception, certaines options peuvent être sacrifiées de sorte que si le produit fonctionne, tout le reste ne compte plus. Ainsi, on pourrait se retrouver devant un cas où le firmware ne doit pas dépasser une certaine taille, ce qui signifie que certaines dépendances du projet doivent être supprimées pour utiliser à la place une solution rafistolée qui n'a juste besoin que de fonctionner. On cherche à concevoir le projet à moindres coûts, même si la qualité n'est pas la même, du moment que cela fonctionne (cela touche aussi d'autres domaines).
 
-Le but de cette publication n'est pas de parler des problèmes des IoT en général, mais plutôt d'un de ceux que j'ai pu analyser : il s'agit du routeur 4G POCKET WIFI commercialisé par Airtel RDC.
-Exploitation
+Le but de cette publication n'est pas de parler des problèmes des IoT en général, mais plutôt d'un de ceux que j'ai pu analyser : il s'agit du routeur [4G POCKET WIFI](https://airtel.cd/devices/4G_POCKET_WIFI) commercialisé par Airtel RDC.
+
+## Exploitation
 
 La faille de sécurité découverte dans cet appareil concerne son interface d'administration, et cette faille n'est que cela ; pourtant, le problème fait tomber toute l'infrastructure.
 
@@ -35,24 +36,18 @@ En essayant de consulter certaines pages qui sont censées être d'accès restre
 
 Comme conséquence, nous pouvons :
 
-    Voir et modifier le mot de passe de l'administration et celui du Wi-Fi
-
-    Voir et envoyer les SMS
-
-    Lister les appareils connectés
-
-    Exécuter des codes USSD
-
-    Éteindre et réinitialiser la mémoire du routeur
-
-    Installer un firmware infecté
-
-    Rendre le routeur inutilisable (absence d'option de réinitialisation par un bouton physique)
+    * Voir et modifier le mot de passe de l'administration et celui du Wi-Fi
+    * Voir et envoyer les SMS
+    * Lister les appareils connectés
+    * Exécuter des codes USSD
+    * Éteindre et réinitialiser la mémoire du routeur
+    * Installer un firmware infecté
+    * Rendre le routeur inutilisable (absence d'option de réinitialisation par un bouton physique)
 
 Pouvant effectuer toutes ces manipulations, dans cette publication nous allons juste démontrer la possibilité de voir le mot de passe administrateur ; les autres actions peuvent être réalisées depuis l'interface d'administration.
 
 ![demo](/assets/images/router_airtel_1/demo.png)
 
-Un exploit est disponible [ici](https://github.com/).
+Un exploit est disponible [ici](https://github.com/mrx0me/4g_pocket_wifi_airtel).
 
 
