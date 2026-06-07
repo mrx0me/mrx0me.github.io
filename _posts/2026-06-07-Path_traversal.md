@@ -1,3 +1,4 @@
+---
 layout: post
 title: Path Traversal
 image: "/assets/images/web_attacks/path_traversal.png"
