@@ -1,6 +1,6 @@
 ---
 layout: post
-title: L'ingenerie inverse ou l'art de comprendre le machine (langange machine)
+title: L'ingenierie inverse ou l'art de comprendre le machine (langange machine)
 image: "/assets/images/re/image.jpg"
 category: Reverse Ingenering
 author: mr0me
