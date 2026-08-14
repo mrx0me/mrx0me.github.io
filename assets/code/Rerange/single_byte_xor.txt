@@ -1,0 +1,97 @@
+
+undefined8 main(void)
+
+{
+  char *pcVar1;
+  undefined8 uVar2;
+  byte abStack_148 [128];
+  byte local_c8 [128];
+  byte local_48 [32];
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined4 local_20;
+  undefined4 local_1c;
+  int local_18;
+  int local_14;
+  int local_10;
+  int local_c;
+  
+  local_48[0] = 8;
+  local_48[1] = 0x3f;
+  local_48[2] = 8;
+  local_48[3] = 0x3b;
+  local_48[4] = 0x34;
+  local_48[5] = 0x3d;
+  local_48[6] = 0x3f;
+  local_48[7] = 0x21;
+  local_48[8] = 0x29;
+  local_48[9] = 0x6b;
+  local_48[10] = 0x34;
+  local_48[0xb] = 0x3d;
+  local_48[0xc] = 0x36;
+  local_48[0xd] = 0x69;
+  local_48[0xe] = 0x38;
+  local_48[0xf] = 0x23;
+  local_48[0x10] = 0x6d;
+  local_48[0x11] = 0x69;
+  local_48[0x12] = 5;
+  local_48[0x13] = 0x6a;
+  local_48[0x14] = 0x38;
+  local_48[0x15] = 0x3c;
+  local_48[0x16] = 0x2f;
+  local_48[0x17] = 0x29;
+  local_48[0x18] = 0x39;
+  local_48[0x19] = 0x6e;
+  local_48[0x1a] = 0x2e;
+  local_48[0x1b] = 0x6a;
+  local_48[0x1c] = 0x28;
+  local_48[0x1d] = 5;
+  local_48[0x1e] = 0x3e;
+  local_48[0x1f] = 0x27;
+  local_18 = 0x20;
+  local_10 = 1;
+  local_1c = 0xc3;
+  local_20 = 0xa6;
+  local_24 = 0x3f;
+  local_28 = get_key(0xc3,0xa6,0x3f);
+  printf("Enter flag: ");
+  pcVar1 = fgets((char *)local_c8,0x80,stdin);
+  if (pcVar1 == (char *)0x0) {
+    uVar2 = 1;
+  }
+  else {
+    for (local_c = 0; local_c8[local_c] != 0; local_c = local_c + 1) {
+      if ((local_c8[local_c] == 10) || (local_c8[local_c] == 0xd)) {
+        local_c8[local_c] = 0;
+        break;
+      }
+    }
+    for (local_14 = 0; local_c8[local_14] != 0; local_14 = local_14 + 1) {
+    }
+    for (local_c = 0; local_c < local_18; local_c = local_c + 1) {
+      abStack_148[local_c] = (byte)local_28 ^ local_48[local_c];
+    }
+    abStack_148[local_18] = 0;
+    if (local_14 == local_18) {
+      for (local_c = 0; local_c < local_18; local_c = local_c + 1) {
+        if (local_c8[local_c] != abStack_148[local_c]) {
+          local_10 = 0;
+          break;
+        }
+      }
+      if (local_10 == 0) {
+        puts("Wrong.");
+      }
+      else {
+        puts("Correct!");
+      }
+      uVar2 = 0;
+    }
+    else {
+      puts("Wrong.");
+      uVar2 = 0;
+    }
+  }
+  return uVar2;
+}
+
