@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attaques sur le réseau local (LAN) : panorama des techniques classiques
+title: "Attaques sur le réseau local (LAN) : panorama des techniques classiques"
 image: "https://ipcisco.com/wp-content/uploads/2020/03/cyber-attacks-network-attacks-ipcisco.com_-835x500.png"
 category: network
 author: mr0me
