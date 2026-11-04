@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Quand signer ses paquets SMB ne suffit plus : CVE-2025-33073 & CVE-2026-26128'
-image: "https://ichef.bbci.co.uk/images/ic/800xn/p05bcxt5.jpg.webp"
+image: "https://images.contentstack.io/v3/assets/blt36c2e63521272fdc/blt2a93d95cba77be1e/5dfcef9c41f23743155b847a/smbrelaypic2-relaydiagram.png"
 category: Windows
 author: mr0me
 ---
