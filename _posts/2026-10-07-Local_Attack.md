@@ -11,7 +11,9 @@ Le plus souvent, on nous donne des recommandations comme éviter de nous connect
 
 Dans cet article, nous allons voir quelques attaques qui peuvent être menées si nous nous retrouvons sur le même réseau qu'une personne malveillante.
 Puisque nous allons parler d'attaques sur le réseau local (LAN), autant commencer par clarifier comment s'effectue la communication sur un LAN, quels protocoles sont utilisés, et préciser certains termes que nous emploierons tout au long de l'article.
+
 # Communication sur le LAN
+
 Un réseau informatique est une interconnexion d'appareils reliés entre eux pour échanger des informations. Ces appareils ne jouent pas tous le même rôle sur le réseau :
 * Le routeur fait transiter des paquets d'un réseau à un autre (par exemple, du réseau local vers Internet).
 * Le concentrateur (hub) et le commutateur (switch) permettent de faire transiter une communication (une trame) de l'expéditeur vers le destinataire. La différence majeure est que le hub diffuse la trame reçue à tous les appareils connectés, alors que le switch l'envoie uniquement au port du destinataire concerné, grâce à une table interne appelée table CAM, qui associe les adresses MAC aux ports du switch.
@@ -34,7 +36,9 @@ Quelques autres protocoles et notions que nous croiserons dans cet article :
 
 
 Avec ces quelques explications, nous pouvons passer aux attaques, en détaillant d'autres éléments si besoin. Les problèmes abordés ici ne sont pas des faiblesses propres à un système d'exploitation ou à un équipement réseau en particulier, mais des faiblesses inhérentes aux standards mêmes qui régissent ces communications (les protocoles).
+
 # Attaques
+
 ## 1. ARP Spoofing (empoisonnement de cache)
 L'attaquant envoie des réponses ARP falsifiées pour associer sa propre adresse MAC à l'IP de la passerelle (dans le cache de la victime) et à l'IP de la victime (dans le cache de la passerelle). Les deux machines croient alors parler directement l'une à l'autre, alors que tout le trafic transite en réalité par l'attaquant : c'est une attaque de type Man-in-the-Middle (MITM).
 
