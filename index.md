@@ -2,23 +2,15 @@
 layout: home
 title: Home
 description: >-
-  Especializado en el desarrollo de API RESTs con Ruby on Rails. He participado
-  en diversas etapas del ciclo de desarrollo de aplicaciones.
+  Mon blog
 image: /assets/images/main.avif
 main_content: >
   ## Jephte Mangenda (MrxOme).
-    Etudiant en réseau informatique, developpeur informatique et Cybersecurité enthusiaste .
+    Etudiant en réseau informatique et Cybersecurité enthusiaste .
     
 
 footer: true
 permalink: /
----
-# 🛡️ À propos de moi : Jephté Mangenda
-### *Étudiant en Réseaux | Praticien en Cybersécurité | Bug Bounty Hunter*
-
-
-Mon parcours est une quête constante d'équilibre entre la théorie académique, la pratique intensive en laboratoire et l'analyse de systèmes réels (Bug Hunting).
-
 ---
 
 ## ⚔️ Performance CTF & Hacking Éthique
@@ -29,24 +21,5 @@ Je suis extrêmement actif au sein de la communauté mondiale de cybersécurité
 * 🚩 **[Root-Me](https://www.root-me.org/jeremie-679285)** : Analyse de vulnérabilités applicatives et exploitation système.
 * ⏱️ **[CTFtime](https://ctftime.org/user/140950)** : Participation aux compétitions internationales en équipe.
 
-## 🏹 Bug Hunting
-Au-delà des environnements contrôlés, je m'exerce à la recherche de vulnérabilités sur des périmètres réels en respectant les cadres éthiques :
 * **[HackerOne](https://hackerone.com/mr_me2?type=user)** : Chasseur de bugs actif, spécialisé dans l'identification de failles logiques et techniques sur des infrastructures critiques.
-
-> **Objectif actuel :** Je prépare activement la certification **eJPT** (Junior Penetration Tester) et je vise à terme l'**OSCP** (Offensive Security Certified Professional).
-
----
-
-## 🛠️ Stack Technique & Compétences
-
-| Domaine | Technologies & Outils |
-| :--- | :--- |
-| **Networking** | Cisco IOS, Protocoles de routage, VLANs, VPN |
-| **Bug Hunting** | Reconnaissance (Subfinder, Amass), Burp Suite, Fuzzing |
-| **Sécurité Offensive** | Pentesting, Nmap, Metasploit, SQLMap, Kali Linux |
-
----
-
-## 💡 Ma Vision
-Sur ce blog, je documente mon aventure dans l'univers de l'**Infosec**. Mon but est de partager mes *write-ups*, mes découvertes en tant que chasseur de bugs et ma veille technologique.
 
