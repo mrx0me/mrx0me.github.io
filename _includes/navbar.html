@@ -40,8 +40,7 @@
         <div class="dropdown-content absolute hidden mt-2 py-2 bg-white dark:bg-neutral-700 rounded-sm shadow-lg z-20">
           {% for tongue in site.languages %}
             {% if tongue != site.active_lang %}
-            <a class="p-4 hover:underline" {% static_href
-              %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"
+            <a class="p-4 hover:underline" {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"
               {% endstatic_href %}>{{ tongue | upcase }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%-
             endif -%}
             {% endif %}
