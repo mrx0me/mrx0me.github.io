@@ -1,5 +1,5 @@
 ---
-layout: certificats
+layout: certificat
 title: Certifications
 nav: true
 footer: true
