@@ -8,6 +8,10 @@ baseurl:
 collections:
   projects:
     output: true
+  ctf:
+    output: true
+  certificat:
+    output: true
 
 ##
 # Contact Channels configuration
